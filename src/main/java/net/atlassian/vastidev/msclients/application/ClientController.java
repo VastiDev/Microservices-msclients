@@ -14,7 +14,6 @@ import java.net.URI;
 @RestController
 @RequestMapping("/clients")
 @RequiredArgsConstructor
-
 @Slf4j
 public class ClientController {
 
@@ -39,9 +38,8 @@ public class ClientController {
     }
 
     @GetMapping(params = "cpf")
-    public ResponseEntity datasClient(@RequestParam("cpf") String cpf){
+    public ResponseEntity clientData(@RequestParam("cpf") String cpf){
         var client = service.getByCPF(cpf);
-        log.info("acessou get cpf");
         if(client.isEmpty()){
             return ResponseEntity.notFound().build();
         }
