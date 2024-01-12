@@ -11,7 +11,7 @@ Separate APIs were built that communicate with each other synchronously through 
 - **Microservices-EurekaServer**: Maintains the instances of different microservices.
 - **Microservices-mscloudgateway**: Manages and distributes the requests.
 
-![Project Architecture](./path-to-your-image.jpg) <!-- Replace with the correct path to your image -->
+![Project Architecture](Screenshot_20231215-213035_Samsung Internet.jpg) <!-- Replace with the correct path to your image -->
 
 ## Technologies Used
 - **Spring Cloud**: For building some of the most common patterns in distributed systems.
