@@ -11,7 +11,7 @@ Separate APIs were built that communicate with each other synchronously through 
 - **Microservices-EurekaServer**: Maintains the instances of different microservices.
 - **Microservices-mscloudgateway**: Manages and distributes the requests.
 
-![Project Architecture]
+
 <img src="Screenshot_20231215-213035_Samsung%20Internet.jpg" width="500"> <!-- Altere o valor de width para o tamanho desejado -->
 
 
